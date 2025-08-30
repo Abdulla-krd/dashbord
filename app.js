@@ -9,7 +9,8 @@ hamburger.addEventListener("click", function(){
 
 
 
-// the firts chart take into my project
+
+// the seceond chart take to github
 // chart bar example 
 new Chart(document.getElementById("bar-chart-grouped"), {
     type: 'bar',
