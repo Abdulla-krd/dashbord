@@ -8,6 +8,11 @@ hamburger.addEventListener("click", function(){
 })
 
 
+hamburger.addEventListener("click", function(){
+    document.querySelector("#sidebar").classList.toggle("expand")
+    toggle.classList.toggle("fa-circle-chevron-right")
+    toggle.classList.toggle("fa-circle-chevron-left")
+})
 
 
 // the seceond chart take to github
@@ -37,7 +42,3 @@ new Chart(document.getElementById("bar-chart-grouped"), {
 });
 
 
-function helloworld(){
-  console.log("hello my name is abdull hatam")
-  return this 
-}
