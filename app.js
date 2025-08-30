@@ -35,3 +35,9 @@ new Chart(document.getElementById("bar-chart-grouped"), {
       }
     }
 });
+
+
+function helloworld(){
+  console.log("hello my name is abdull hatam")
+  return this 
+}
